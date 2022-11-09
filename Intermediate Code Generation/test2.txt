@@ -1,0 +1,22 @@
+int main()
+{
+	int a=10;   //This is nested if else loop
+	int b=20;   
+	if(a<=14)
+	{
+		if(a==12)
+		{
+			b=b*100;
+			b=200;
+		}
+		else
+		{
+			a=10;
+		}
+	}
+	else
+	{
+		b=89;
+	}
+	return 0;
+}
