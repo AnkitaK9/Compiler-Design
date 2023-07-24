@@ -43,8 +43,10 @@ gcc lex.yy.c
 
 #### 5) Run the semantic analyzer.
 ```
-gcc semantic_analyzer.c -o semantic_analyzer
-./semantic_analyzer input_code.cs
+bison -d file.l
+flex file.l
+gcc lex.yy.c file.tab.c
+./a.out <testcasefile with extension>
 ```
 
 #### 6) Generate the intermediate code.
