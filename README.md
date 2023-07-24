@@ -49,8 +49,9 @@ gcc semantic_analyzer.c -o semantic_analyzer
 
 #### 6) Generate the intermediate code.
 ```
-gcc intermediate_code_generator.c -o intermediate_code_generator
-./intermediate_code_generator input_code.cs
+flex Assignment.l
+bison -d Assignment.y
+gcc Assignment.tab.c
 ```
 
 ## Technologies Used
