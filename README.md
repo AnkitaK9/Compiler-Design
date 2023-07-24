@@ -35,8 +35,10 @@ cd csharp-compiler
 
 #### 4) Compile and run the lexical analyzer.
 ```
-gcc lexical_analyzer.c -o lexical_analyzer
-./lexical_analyzer input_code.cs
+flex filename.l
+gcc lex.yy.c
+./a.out
+
 ````
 
 #### 5) Run the semantic analyzer.
