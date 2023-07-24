@@ -1,4 +1,4 @@
-## Project Title: Three-Phase Compiler for C# Language
+## Project Title: Compiler Design
 ### Description
 
 This project is a three-phase compiler for the C# programming language. Each phase performs essential tasks in the compilation process, starting from lexical analysis, followed by semantic analysis, and finally, generating intermediate code. The compiler is implemented in the C programming language and aims to translate C# source code into an intermediate representation for further optimization or target code generation.
