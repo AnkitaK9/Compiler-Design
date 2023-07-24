@@ -41,7 +41,7 @@ gcc lex.yy.c
 
 ````
 
-#### 5) Run the semantic analyzer.
+#### 5) Run the Syntax analyzer.
 ```
 bison -d file.l
 flex file.l
@@ -49,7 +49,7 @@ gcc lex.yy.c file.tab.c
 ./a.out <testcasefile with extension>
 ```
 
-#### 6) Generate the intermediate code.
+#### 6) Generate the intermediate code and Symbol table.
 ```
 flex Assignment.l
 bison -d Assignment.y
