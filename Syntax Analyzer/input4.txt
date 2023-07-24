@@ -1,0 +1,20 @@
+using System;
+namespace pro
+	{
+	class Geks 
+		{
+    		public static void Main()
+    			{
+       		for (i = 1; i < 4; i++)
+        			{
+            			if (i == 3)
+            				{
+                			break;
+                			}
+             			Console.WriteLine("matrix the one");
+             			return a;
+        			}
+    			}
+		}
+	}
+

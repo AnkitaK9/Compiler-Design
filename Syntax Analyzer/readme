@@ -1,0 +1,17 @@
+We have to design a syntax analyzer which will print whether the inputted program is valid or not.
+It will also show the line number in which error occurs.
+
+Steps to implement a file.l and file .y files:
+
+1) bison -d file.l
+2) flex file.l
+3) gcc lex.yy.c file.tab.c
+4) ./a.out
+
+We have given various program inputs you them as input at the end of the file.y file.
+       
+          fo=fopen("input.txt","r");
+                     |
+                     |
+                 pass input files from here
+ 

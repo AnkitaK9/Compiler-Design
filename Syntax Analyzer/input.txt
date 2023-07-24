@@ -1,0 +1,71 @@
+using System;
+namespace HelloWorld	
+	{
+	class Program
+		{
+		public static void main(u)
+			{
+			if(a==3)
+				{
+				break;
+				}
+			else if(a==3)
+				{
+				int a,b;       //sdfgh
+				return a;      /*compilerasdfg*/
+				}
+			else
+				{
+				s+2;
+				}
+			add();
+			if(a=3)
+				{
+				break;
+				}
+			add(s,d);
+			add();
+			for(i=2;i<=3;i++)
+				{
+				int s=Console.ReadLine(s);
+				Console.WriteLine("Enter");
+				}
+			switch(expression) 
+				{
+				case 1:
+				c+2;
+				break;
+				case 2:
+				d+s;
+				default:
+				c-s+d;
+				break;
+				}
+			}
+		sdd();
+		public static void add()
+			{
+			if(a==3)
+				{
+				int a=2.4;
+				}
+			if(a==3)
+				{
+				int a=2.4;
+				}
+			else
+				{
+				s+2;
+				}
+			if(a==3)
+				{
+				break;
+				}
+			for(i=0;i<=3;i++)
+				{
+				Console.WriteLine("Enter");
+				}
+		addd(f,h);
+			}
+		}
+	}

@@ -1,0 +1,23 @@
+using System;
+namespace Race
+	{
+	class Program
+		{
+		public static void Main()
+			{
+			int i=2;
+			if(i>0)
+				{
+				Console.WriteLine("It is a positive number");
+				}
+			else if(i<0)
+				{
+				Console.WriteLine("It is a negative number");
+				}
+			else
+				{
+				Console.WriteLine("It is zero");
+				}
+			}
+		}
+	}
