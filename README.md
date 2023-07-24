@@ -22,7 +22,7 @@ Once the semantic analysis is complete, the compiler proceeds to generate interm
 #### 1) Clone the repository to your local machine.
 
 ``` 
-[git clone https://github.com/your-username/csharp-compiler.git](https://github.com/AnkitaK9/Compiler-Design.git)
+https://github.com/AnkitaK9/Compiler-Design.git
 ```
 
 #### 2) Navigate to the project directory.
