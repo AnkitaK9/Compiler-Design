@@ -22,13 +22,13 @@ Once the semantic analysis is complete, the compiler proceeds to generate interm
 #### 1) Clone the repository to your local machine.
 
 ``` 
-git clone https://github.com/your-username/csharp-compiler.git
+[git clone https://github.com/your-username/csharp-compiler.git](https://github.com/AnkitaK9/Compiler-Design.git)
 ```
 
 #### 2) Navigate to the project directory.
 
 ```
-cd csharp-compiler
+cd Compiler-Design
 ```
 
 #### 3) Ensure you have a compatible C compiler installed on your machine (e.g., GCC).
